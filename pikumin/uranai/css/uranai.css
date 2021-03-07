@@ -1,0 +1,37 @@
+body {
+  margin: 0px;
+}
+
+header h1 {
+  margin: 0px;
+  font-size: 30px;
+  text-align: center;
+  padding: 24px;
+  background-color: antiquewhite;
+}
+
+h2 p {
+  text-align: center;
+}
+
+.fadein1 {
+  text-align: center;
+  opacity: 0;
+  animation: fadein1 2s ease forwards;
+  animation-delay: 1s;
+}
+
+@keyframes fadein1 {
+  100% {opacity: 1;}
+}
+
+.fadein2 {
+  text-align: center;
+  opacity: 0;
+  animation: fadein2 2s ease forwards;
+  animation-delay: 4s;
+}
+
+@keyframes fadein2 {
+  100% {opacity: 1;}
+}

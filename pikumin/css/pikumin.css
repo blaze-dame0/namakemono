@@ -1,0 +1,43 @@
+body {
+  margin: 0px;
+}
+
+header h1 {
+  margin: 0px;
+  font-size: 30px;
+  text-align: center;
+  padding: 24px;
+  background-color: antiquewhite;
+}
+
+ul {
+  list-style-type: none;
+  padding: 5%;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: auto;
+  row-gap: auto;
+  column-gap: 5%;
+}
+
+
+
+.aka {
+  width: 100%;
+  height: auto;
+  border-radius: 8%;
+  box-shadow: 3px 3px 5px #AAA;
+  justify-items: center;
+}
+
+.aka:hover {
+  opacity: 0.8;
+}
+
+.aka:active {
+  transform: translateY(-5%);
+  transform: translateY(5%);
+}
